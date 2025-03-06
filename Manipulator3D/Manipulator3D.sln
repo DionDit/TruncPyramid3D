@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manipulator3D", "Manipulator3D.csproj", "{BA889FB0-AA1C-4B8A-AE0F-7490B079017B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA889FB0-AA1C-4B8A-AE0F-7490B079017B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA889FB0-AA1C-4B8A-AE0F-7490B079017B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA889FB0-AA1C-4B8A-AE0F-7490B079017B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA889FB0-AA1C-4B8A-AE0F-7490B079017B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCEFCEDC-4262-45CD-93F0-75A037FEA8B4}
+	EndGlobalSection
+EndGlobal
