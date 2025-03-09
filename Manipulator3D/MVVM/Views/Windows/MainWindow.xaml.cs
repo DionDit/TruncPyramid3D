@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Manipulator3D.MVVM.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,9 @@ namespace Manipulator3D.MVVM.Views.Windows
         public MainWindow()
         {
             InitializeComponent();
+            View3D.Children.Add((DataContext as MainWindowViewModel).Model.Model);
+            View3D.Camera = (DataContext as MainWindowViewModel).Camera.CurrentCamera;
+            (DataContext as MainWindowViewModel).View3D = View3D;
         }
     }
 }
